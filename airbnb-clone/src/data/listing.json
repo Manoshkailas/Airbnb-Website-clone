@@ -1,0 +1,56 @@
+{
+  "id": "1",
+  "title": "Villa Terasa in Ubud",
+  "location": "Ubud, Bali, Indonesia",
+  "host": {
+    "name": "Wayan",
+    "image": "https://a0.muscache.com/im/pictures/user/e2df2c1c-994c-47bc-ad68-04b32111534b.jpg?im_w=240",
+    "joined": "Joined in 2015",
+    "superhost": true
+  },
+  "stats": {
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 3,
+    "baths": 3
+  },
+  "rating": 4.95,
+  "reviews": 128,
+  "price": {
+    "amount": 250,
+    "currency": "$",
+    "period": "night",
+    "cleaning_fee": 50,
+    "service_fee": 35
+  },
+  "images": [
+    "https://a0.muscache.com/im/pictures/miso/Hosting-46695796/original/a1599a80-1a13-41bb-98f9-dc5cc95b1114.jpeg?im_w=1200",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-46695796/original/82f50ed4-e0b6-455b-b9d9-f5dd5265646f.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-46695796/original/b34c568f-a9cb-4ef9-bb6f-87a31505c87a.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-46695796/original/880c5f0a-3cc5-4e78-9e6e-1d5d1c24376c.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-46695796/original/9e9dc5b4-d9bc-4ba4-8b63-0ea10c4d18c1.jpeg?im_w=720"
+  ],
+  "description": "Come and experience a little slice of heaven at Villa Terasa. Nestled in the heart of Ubud, our villa offers the perfect blend of modern comfort and traditional Balinese charm. You will enjoy a private pool, lush tropical gardens, and an open-concept living space that lets the gentle breeze flow through.",
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Pool",
+      "icon": "water"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "cutlery"
+    },
+    {
+      "name": "Air conditioning",
+      "icon": "ac"
+    },
+    {
+      "name": "Free parking on premises",
+      "icon": "parking"
+    }
+  ]
+}

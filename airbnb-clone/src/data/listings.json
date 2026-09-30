@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1",
+    "title": "Villa Terasa in Ubud",
+    "location": "Ubud, Bali, Indonesia",
+    "category": "Tropical",
+    "host": {
+      "name": "Wayan",
+      "image": "https://picsum.photos/seed/host1/200/200",
+      "joined": "Joined in 2015",
+      "superhost": true
+    },
+    "stats": {
+      "guests": 6,
+      "bedrooms": 3,
+      "beds": 3,
+      "baths": 3
+    },
+    "rating": 4.95,
+    "reviews": 128,
+    "price": {
+      "amount": 250,
+      "currency": "$",
+      "period": "night",
+      "cleaning_fee": 50,
+      "service_fee": 35
+    },
+    "images": [
+      "https://picsum.photos/seed/villa1a/1200/800",
+      "https://picsum.photos/seed/villa1b/800/800",
+      "https://picsum.photos/seed/villa1c/800/800",
+      "https://picsum.photos/seed/villa1d/800/800",
+      "https://picsum.photos/seed/villa1e/800/800"
+    ],
+    "description": "Come and experience a little slice of heaven at Villa Terasa. Nestled in the heart of Ubud, our villa offers the perfect blend of modern comfort and traditional Balinese charm. You will enjoy a private pool, lush tropical gardens, and an open-concept living space that lets the gentle breeze flow through.",
+    "amenities": [
+      { "name": "Wifi", "icon": "wifi" },
+      { "name": "Pool", "icon": "water" },
+      { "name": "Kitchen", "icon": "cutlery" },
+      { "name": "Air conditioning", "icon": "ac" },
+      { "name": "Free parking on premises", "icon": "parking" }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Modern Beachfront Cabin",
+    "location": "Malibu, California",
+    "category": "Beachfront",
+    "host": {
+      "name": "Sarah",
+      "image": "https://picsum.photos/seed/host2/200/200",
+      "joined": "Joined in 2018",
+      "superhost": false
+    },
+    "stats": {
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "baths": 1
+    },
+    "rating": 4.88,
+    "reviews": 95,
+    "price": {
+      "amount": 350,
+      "currency": "$",
+      "period": "night",
+      "cleaning_fee": 80,
+      "service_fee": 40
+    },
+    "images": [
+      "https://picsum.photos/seed/cabin2a/1200/800",
+      "https://picsum.photos/seed/cabin2b/800/800",
+      "https://picsum.photos/seed/cabin2c/800/800",
+      "https://picsum.photos/seed/cabin2d/800/800",
+      "https://picsum.photos/seed/cabin2e/800/800"
+    ],
+    "description": "Enjoy the sound of crashing waves from your living room. This newly renovated cabin is steps away from the sand.",
+    "amenities": [
+      { "name": "Wifi", "icon": "wifi" },
+      { "name": "Kitchen", "icon": "cutlery" },
+      { "name": "Air conditioning", "icon": "ac" }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Cozy Mountain Retreat",
+    "location": "Aspen, Colorado",
+    "category": "Skiing",
+    "host": {
+      "name": "Michael",
+      "image": "https://picsum.photos/seed/host3/200/200",
+      "joined": "Joined in 2012",
+      "superhost": true
+    },
+    "stats": {
+      "guests": 8,
+      "bedrooms": 4,
+      "beds": 5,
+      "baths": 3
+    },
+    "rating": 4.99,
+    "reviews": 210,
+    "price": {
+      "amount": 550,
+      "currency": "$",
+      "period": "night",
+      "cleaning_fee": 120,
+      "service_fee": 70
+    },
+    "images": [
+      "https://picsum.photos/seed/mountain3a/1200/800",
+      "https://picsum.photos/seed/mountain3b/800/800",
+      "https://picsum.photos/seed/mountain3c/800/800",
+      "https://picsum.photos/seed/mountain3d/800/800",
+      "https://picsum.photos/seed/mountain3e/800/800"
+    ],
+    "description": "Perfect for ski lovers! This cabin offers a beautiful view of the snowy peaks and features a hot tub.",
+    "amenities": [
+      { "name": "Wifi", "icon": "wifi" },
+      { "name": "Hot tub", "icon": "water" },
+      { "name": "Kitchen", "icon": "cutlery" },
+      { "name": "Free parking on premises", "icon": "parking" }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Luxury City Loft",
+    "location": "New York City, New York",
+    "category": "City",
+    "host": {
+      "name": "Emily",
+      "image": "https://picsum.photos/seed/host4/200/200",
+      "joined": "Joined in 2020",
+      "superhost": false
+    },
+    "stats": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "baths": 1
+    },
+    "rating": 4.75,
+    "reviews": 45,
+    "price": {
+      "amount": 180,
+      "currency": "$",
+      "period": "night",
+      "cleaning_fee": 40,
+      "service_fee": 25
+    },
+    "images": [
+      "https://picsum.photos/seed/city4a/1200/800",
+      "https://picsum.photos/seed/city4b/800/800",
+      "https://picsum.photos/seed/city4c/800/800",
+      "https://picsum.photos/seed/city4d/800/800",
+      "https://picsum.photos/seed/city4e/800/800"
+    ],
+    "description": "Right in the middle of Manhattan, this loft offers easy access to all the best restaurants and sights.",
+    "amenities": [
+      { "name": "Wifi", "icon": "wifi" },
+      { "name": "Air conditioning", "icon": "ac" }
+    ]
+  }
+]

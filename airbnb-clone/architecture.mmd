@@ -1,0 +1,46 @@
+flowchart TD
+    subgraph Client [Client Tier]
+        Desktop[Desktop Browser]
+        MobileApp[Mobile App iOS/Android]
+    end
+
+    subgraph Edge [Edge & CDN]
+        CDN[CDN CloudFront / Vercel Edge]
+        WAF[WAF / API Gateway]
+    end
+
+    subgraph Services [Microservices Backend]
+        SearchSvc[Search Service]
+        BookingSvc[Booking & Reservation]
+        UserSvc[User & Auth Service]
+        MsgSvc[Messaging Service]
+        ListingSvc[Listing Service]
+    end
+
+    subgraph Data [Data & Storage Tier]
+        Elastic[(Elasticsearch Cluster)]
+        Redis[(Redis Cache)]
+        Postgres[(PostgreSQL RDBMS)]
+        Mongo[(MongoDB NoSQL)]
+        S3[S3 Object Storage]
+    end
+
+    Desktop --> CDN
+    MobileApp --> CDN
+    CDN --> WAF
+    WAF --> SearchSvc
+    WAF --> BookingSvc
+    WAF --> UserSvc
+    WAF --> MsgSvc
+    WAF --> ListingSvc
+
+    SearchSvc <--> Elastic
+    ListingSvc <--> Mongo
+    ListingSvc --> S3
+    BookingSvc <--> Postgres
+    UserSvc <--> Postgres
+    MsgSvc <--> Postgres
+
+    SearchSvc -.-> Redis
+    ListingSvc -.-> Redis
+    BookingSvc -.-> Redis
